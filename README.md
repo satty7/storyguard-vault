@@ -51,87 +51,73 @@ Edit
 ## 🚀 How to Run the Project (Locally)
 
 ### ✅ 1. Clone the Repo
-
-```bash
+bash
 git clone https://github.com/satty7/storyguard-main.git
 cd storyguard-main
-🧩 2. Backend Setup
+
+### 🧩 2. Backend Setup
 bash
-Copy
-Edit
 cd backend
 npm install
+
 🔐 Create a .env file in backend/:
 env
-Copy
-Edit
 PORT=5000
 MONGO_URI=your_mongodb_uri_here
-JWT_SECRET=your_jwt_secret_here
+JWT_SECRET=your_jwt_secret_here 
+
 ▶ Start Backend
 bash
-Copy
-Edit
 npm start
 Runs on: http://localhost:5000
 
-💻 3. Frontend Setup
+### 💻 3. Frontend Setup
 bash
-Copy
-Edit
 cd ../frontend
 npm install
+
+
 🛠️ Create a .env in frontend/:
 env
-Copy
-Edit
 REACT_APP_API_URL=http://localhost:5000
+
 ▶ Start Frontend
-bash
-Copy
-Edit
 npm start
 Runs on: http://localhost:3000
 
-🔐 Tech Stack
-Layer	Tech Used
-Frontend	React, CSS
-Backend	Node.js, Express, MongoDB
-Blockchain	Solidity, Hardhat, Ethers.js
-Auth	JWT, bcrypt
-Hosting	GitHub (dev), Vercel (prod-ready)
+### 🔐 Tech Stack
+| Layer      | Tech Used                         |
+| ---------- | --------------------------------- |
+| Frontend   | React, CSS                        |
+| Backend    | Node.js, Express, MongoDB         |
+| Blockchain | Solidity, Hardhat, Ethers.js      |
+| Auth       | JWT, bcrypt                       |
+| Hosting    | GitHub (dev), Vercel (prod-ready) |
 
-📡 API Endpoints (Backend)
-Method	Endpoint	Description
-POST	/api/register	Register new users
-POST	/api/login	Login users
-GET	/api/dashboard	Protected dashboard
-
+### 📡 API Endpoints (Backend)
+| Method | Endpoint         | Description         |
+| ------ | ---------------- | ------------------- |
+| POST   | `/api/register`  | Register new users  |
+| POST   | `/api/login`     | Login users         |
+| GET    | `/api/dashboard` | Protected dashboard |
 More coming soon…
 
 🧾 .gitignore Best Practices
 Ignored files:
+    -> node_modules/
+    -> .env
+    -> build/
 
-bash
-Copy
-Edit
-node_modules/
-.env
-build/
+
 🧪 Testing
 Use Postman to test API routes
-
 Use console.log() & browser dev tools to trace frontend behavior
-
 Run smart contract test scripts via Hardhat if needed
 
 🧠 Future Enhancements
 Role-based access for doctors, admins
-
 File uploads for reports (IPFS or similar)
-
 Multi-chain smart contract support
-
 Email/SMS notifications
 
 🧾 License
@@ -141,28 +127,3 @@ MIT — use it, break it, build on it. Just credit it. ✨
 Built with 💜 by @satty7
 
 Want to collaborate, report an issue, or contribute? Open an issue
-
-yaml
-Copy
-Edit
-
----
-
-## 🧙 Nova Bonus:
-
-You can:
-- Copy-paste this as `README.md` in the root of your repo ✅
-- Add screenshot links or deploy URLs if you’ve got them ✅
-- Want help writing the **smart contract overview** section? I can ✨
-
-Let me know if you want this same README **rendered into a beautiful PDF**, ready for a college presentation or submission. 🎓🔥  
-You’ve built something amazing — now let the world see it. 🌍
-
-
-
-
-
-
-
-
-Ask ChatGPT
