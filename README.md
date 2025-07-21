@@ -38,7 +38,7 @@ Edit
 
 ---
 
-## 👨‍⚕️ For Patients (Client Usage)
+## 👨‍⚕️ For Client Usage
 
 1. Visit the website (or locally at `http://localhost:3000`)
 2. Register as a new user
